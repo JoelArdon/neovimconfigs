@@ -92,6 +92,8 @@ return packer.startup(function(use)
   use "PhilRunninger/nerdtree-visual-selection"
   --]]
 
+  use 'folke/tokyonight.nvim'
+
   --nvimTree
   use "ryanoasis/vim-devicons"
   use {
